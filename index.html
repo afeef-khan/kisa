@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KISA Chartered Accountants</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="#" class="nav-logo">
+                    <div class="logo-mark"><span>K</span></div>
+                    <div class="logo-text">
+                        <strong>KISA</strong>
+                        <small>Chartered Accountants</small>
+                    </div>
+                </a>
+
+                <ul class="nav-links">
+                    <li class="has-dropdown">
+                        <a href="#">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="#services"><i class="fas fa-check-circle"></i>Audit</a></li>
+                            <li><a href="#services"><i class="fas fa-file-invoice-dollar"></i>Corporate Tax Services</a>
+                            </li>
+                            <li><a href="#services"><i class="fas fa-chart-line"></i>Business Advisory &amp;
+                                    Consulting</a></li>
+                            <li><a href="#services"><i class="fas fa-shield-alt"></i>Compliance &amp; AML</a></li>
+                            <li><a href="#services"><i class="fas fa-landmark"></i>Corporate Finance</a></li>
+                            <li><a href="#services"><i class="fas fa-globe"></i>VAT Consulting</a></li>
+                            <li><a href="#services"><i class="fas fa-book"></i>IFRS Advisory</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#insights">KISA Insight</a></li>
+                    <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+                </ul>
+
+                <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#services" class="mobile-sub">— Audit</a></li>
+            <li><a href="#services" class="mobile-sub">— Corporate Tax Services</a></li>
+            <li><a href="#services" class="mobile-sub">— Business Advisory</a></li>
+            <li><a href="#services" class="mobile-sub">— Compliance &amp; AML</a></li>
+            <li><a href="#services" class="mobile-sub">— Corporate Finance</a></li>
+            <li><a href="#services" class="mobile-sub">— VAT Consulting</a></li>
+            <li><a href="#services" class="mobile-sub">— IFRS Advisory</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#insights">KISA Insight</a></li>
+        </ul>
+        <div class="mobile-cta-wrap">
+            <a href="#contact">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-grid-overlay"></div>
+
+        <!-- Decorative geometric shapes -->
+        <div class="hero-deco">
+            <div class="deco-ring deco-ring-1"></div>
+            <div class="deco-ring deco-ring-2"></div>
+            <div class="deco-ring deco-ring-3"></div>
+            <div class="deco-line deco-line-1"></div>
+            <div class="deco-line deco-line-2"></div>
+        </div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-award"></i>
+                    <span>DFSA Registered Auditor · DIFC</span>
+                </div>
+
+                <h1>Your trusted partner in <em>audit, tax</em> &amp; advisory.</h1>
+
+                <p class="hero-sub">
+                    At KISA, personalized service isn't just a promise—it's our mantra. Every client benefits from
+                    direct access to seasoned partners who deliver tailored solutions with precision and insight.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-primary">
+                        <i class="fas fa-comment-dots"></i> Let's have a chat
+                    </a>
+                    <a href="#services" class="btn-secondary">
+                        <i class="fas fa-compass"></i> Explore services
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <p class="hero-note-quote">"At KISA, exceptional service means hands-on leadership, maintaining the
+                        highest standards, and a forensic understanding of our clients' needs."</p>
+                    <div class="hero-note-attr">
+                        <div class="hero-note-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="hero-note-name">
+                            <strong>Nikos Kastellanis</strong>
+                            <span>Managing Partner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Visual Panel -->
+            <div class="hero-visual">
+                <div class="hero-card-stack">
+                    <div class="hcard hcard-1">
+                        <div class="hcard-icon"><i class="fas fa-shield-halved"></i></div>
+                        <div class="hcard-text">
+                            <span>DFSA Registered</span>
+                            <small>Highest regulatory standard</small>
+                        </div>
+                    </div>
+                    <div class="hcard hcard-2">
+                        <div class="hcard-icon"><i class="fas fa-scale-balanced"></i></div>
+                        <div class="hcard-text">
+                            <span>IFRS &amp; ISA Compliant</span>
+                            <small>International standards</small>
+                        </div>
+                    </div>
+                    <div class="hcard hcard-3">
+                        <div class="hcard-icon"><i class="fas fa-handshake"></i></div>
+                        <div class="hcard-text">
+                            <span>Partner-Led Service</span>
+                            <small>Senior access, always</small>
+                        </div>
+                    </div>
+                    <div class="hcard hcard-4">
+                        <div class="hcard-icon"><i class="fas fa-building-columns"></i></div>
+                        <div class="hcard-text">
+                            <span>DIFC Licensed</span>
+                            <small>Based in Dubai</small>
+                        </div>
+                    </div>
+                    <div class="hero-stat-ring">
+                        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(20,184,166,0.12)"
+                                stroke-width="2" />
+                            <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(20,184,166,0.5)" stroke-width="2"
+                                stroke-dasharray="327" stroke-dashoffset="80" stroke-linecap="round"
+                                transform="rotate(-90 60 60)" />
+                        </svg>
+                        <div class="stat-ring-inner">
+                            <strong>25+</strong>
+                            <span>Years<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <div class="trust-strip">
+        <div class="container">
+            <div class="trust-inner">
+                <div class="trust-item">
+                    <i class="fas fa-certificate"></i>
+                    <span>DFSA Registered Auditor</span>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <i class="fas fa-building-columns"></i>
+                    <span>DIFC Licensed</span>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <i class="fas fa-handshake"></i>
+                    <span>Partner-Led Service</span>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <i class="fas fa-scale-balanced"></i>
+                    <span>IFRS · ISA · UAE Tax Compliant</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label"><span>What we do</span></div>
+                <h2 class="section-title">Leadership. Precision. Trust.</h2>
+                <p class="section-subtitle">A full suite of financial and advisory services, delivered with hands-on
+                    partner expertise.</p>
+            </div>
+
+            <!-- 3+3 top rows -->
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-top">
+                        <div class="service-icon"><i class="fas fa-check-circle"></i></div>
+                        <span class="service-num">01</span>
+                    </div>
+                    <h3>Audit</h3>
+                    <p>As a DFSA Registered Auditor, KISA meets the highest standards in IFRS, ISAs and UAE tax
+                        laws—your ideal partner for compliance, transparency and growth.</p>
+                    <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-top">
+                        <div class="service-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                        <span class="service-num">02</span>
+                    </div>
+                    <h3>Corporate Tax Services</h3>
+                    <p>Smart tax planning reduces liabilities and ensures compliance with UAE Corporate Tax
+                        requirements. KISA keeps you ahead of regulatory changes while maximizing financial efficiency.
+                    </p>
+                    <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-top">
+                        <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                        <span class="service-num">03</span>
+                    </div>
+                    <h3>Business Advisory &amp; Consulting</h3>
+                    <p>Organizations must adapt quickly. KISA stands apart with partner-level insight, tailored
+                        solutions and a commitment to guiding your business through complexity toward lasting success.
+                    </p>
+                    <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-top">
+                        <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                        <span class="service-num">04</span>
+                    </div>
+                    <h3>Compliance &amp; AML</h3>
+                    <p>KISA goes beyond standard compliance with bespoke solutions that protect your business from
+                        financial crime. Our hands-on AML measures are robust, practical and aligned with your
+                        operations.</p>
+                    <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-top">
+                        <div class="service-icon"><i class="fas fa-landmark"></i></div>
+                        <span class="service-num">05</span>
+                    </div>
+                    <h3>Corporate Finance</h3>
+                    <p>From mergers and acquisitions to securing the right business partners, KISA helps you navigate
+                        complex transactions, optimize risk and return, and unlock new opportunities.</p>
+                    <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-top">
+                        <div class="service-icon"><i class="fas fa-book-open"></i></div>
+                        <span class="service-num">06</span>
+                    </div>
+                    <h3>IFRS Advisory</h3>
+                    <p>KISA simplifies IFRS compliance with expert guidance tailored to your business—ensuring your
+                        financial reporting meets global standards with efficiency, accuracy and clarity.</p>
+                    <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- 7th card as a wide CTA banner -->
+            <div class="service-card service-card-wide">
+                <div class="service-wide-left">
+                    <div class="service-top">
+                        <div class="service-icon"><i class="fas fa-percent"></i></div>
+                        <span class="service-num">07</span>
+                    </div>
+                    <h3>VAT Consulting</h3>
+                    <p>VAT can be complex, but KISA makes it manageable. Our partners provide reliable strategies and
+                        hands-on support to navigate every VAT challenge and keep operations running smoothly.</p>
+                    <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-wide-right">
+                    <p>Not sure which service fits your needs?</p>
+                    <a href="#contact" class="btn-primary" style="margin-top:16px;">
+                        <i class="fas fa-comment-dots"></i> Talk to a Partner
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-alt" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img-wrap">
+                    <div class="about-img-placeholder">
+                        <div class="about-img-inner">
+                            <i class="fas fa-city"></i>
+                            <span>Central Park Towers · DIFC · Dubai</span>
+                        </div>
+                        <!-- Floating stat cards -->
+                        <div class="about-float about-float-1">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <strong>DFSA Registered</strong>
+                                <small>Auditor</small>
+                            </div>
+                        </div>
+                        <div class="about-float about-float-2">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <strong>Partner-Led</strong>
+                                <small>Every engagement</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-img-badge">
+                        <strong>DIFC</strong>
+                        <span>Based in Dubai</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="section-label"><span>About Us</span></div>
+                    <h2 class="section-title">Trusted Expertise.<br>Partner-Led Service.</h2>
+                    <p class="about-body">
+                        KISA is a DFSA Registered Auditor licensed to audit Domestic Authorized Firms, Domestic Funds
+                        and Authorized Market Institutions within the DIFC. Founded by experienced partners with decades
+                        of expertise in internationally recognized regulatory frameworks—including British common law
+                        principles that underpin the DIFC—KISA delivers personalized audit, tax and advisory services
+                        with integrity, precision and hands-on leadership.
+                    </p>
+                    <div class="dfsa-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>DFSA Registered Auditor — DIFC Licensed</span>
+                    </div>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <strong>Partner-Led Teams</strong>
+                                <span>Direct access to senior partners on every engagement</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-gavel"></i>
+                            <div>
+                                <strong>Regulatory Expertise</strong>
+                                <span>Deep knowledge of DFSA, IFRS and UAE tax frameworks</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-magnifying-glass-chart"></i>
+                            <div>
+                                <strong>Forensic Insight</strong>
+                                <span>Precision understanding of each client's unique needs</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-handshake-simple"></i>
+                            <div>
+                                <strong>Tailored Solutions</strong>
+                                <span>Bespoke strategies that align with your business goals</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-cta">
+                        <a href="#contact" class="btn-solid"><i class="fas fa-arrow-right"></i> Learn More</a>
+                        <a href="#contact" class="btn-outline"><i class="fas fa-phone"></i> Speak to a Partner</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INSIGHTS -->
+    <section class="section" id="insights">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label"><span>KISA Insight</span></div>
+                <h2 class="section-title">Thought Leadership.</h2>
+                <p class="section-subtitle">More than a blog—this is where experience meets impact. Decades of field
+                    expertise to help you stay ahead.</p>
+            </div>
+
+            <div class="insights-grid">
+                <div class="insight-card insight-card-featured">
+                    <div class="insight-img insight-img-1">
+                        <i class="fas fa-chess-king"></i>
+                        <div class="insight-img-label">Governance</div>
+                    </div>
+                    <div class="insight-body">
+                        <div class="insight-date"><i class="fas fa-calendar-days"></i> 20 Dec 2025</div>
+                        <h3>Governance Is the New Growth Strategy: Is Your Board Up to It?</h3>
+                        <p>For years, governance was treated as a defensive necessity—something to satisfy regulators
+                            and auditors. That era is over.</p>
+                        <a href="https://kisa.ae/governance-is-the-new-growth-strategy-is-your-board-up-to-it/"
+                            target="_blank" class="insight-link">Read article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="insight-card">
+                    <div class="insight-img insight-img-2">
+                        <i class="fas fa-magnifying-glass-chart"></i>
+                        <div class="insight-img-label">Audit</div>
+                    </div>
+                    <div class="insight-body">
+                        <div class="insight-date"><i class="fas fa-calendar-days"></i> 02 Dec 2025</div>
+                        <h3>Don't Just Comply—Anticipate: The Role of Risk-Focused Audit in a DFSA World</h3>
+                        <p>What matters in audit isn't the volume of data—it's the ability to focus on what actually
+                            changes outcomes.</p>
+                        <a href="https://kisa.ae/dont-just-comply-anticipate-the-role-of-risk-focused-audit-in-a-dfsa-world/"
+                            target="_blank" class="insight-link">Read article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="insight-card">
+                    <div class="insight-img insight-img-3">
+                        <i class="fas fa-triangle-exclamation"></i>
+                        <div class="insight-img-label">Risk</div>
+                    </div>
+                    <div class="insight-body">
+                        <div class="insight-date"><i class="fas fa-calendar-days"></i> 10 Nov 2025</div>
+                        <h3>The Hidden Risk in Your Finance Team: How to Spot Fraud Before Regulators Do</h3>
+                        <p>Before the regulator ever calls, your numbers will have told you something was wrong. In DIFC
+                            and across the UAE, the pattern is consistent.</p>
+                        <a href="https://kisa.ae/the-hidden-risk-in-your-finance-team-how-to-spot-fraud-before-regulators-do/"
+                            target="_blank" class="insight-link">Read article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="insights-more">
+                <a href="https://kisa.ae/kisa-insight" target="_blank" class="btn-outline-dark">
+                    <i class="fas fa-newspaper"></i> Explore all insights
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-label"><span>Get in touch</span></div>
+                    <h2 class="section-title light">Let's have a<br>conversation.</h2>
+                    <p class="contact-sub">
+                        Reach out to our partners directly. We believe every client deserves hands-on, senior-level
+                        attention from day one.
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <div class="contact-icon"><i class="fas fa-location-dot"></i></div>
+                            <div class="contact-detail-body">
+                                <strong>Office</strong>
+                                <span>Office 18-41, Level 18, Central Park Towers, DIFC, Dubai, U.A.E.</span>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div class="contact-detail-body">
+                                <strong>Phone</strong>
+                                <a href="tel:+97152681372">+971 52 681 3372</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-detail-body">
+                                <strong>Email</strong>
+                                <a href="mailto:info@kisa.com">info@kisa.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://wa.me/+971526813372" target="_blank" class="social-btn" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/kisa-chartered-accountants/" target="_blank"
+                            class="social-btn" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap">
+                    <h3>Send us a message</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>First name</label>
+                            <input type="text" placeholder="John" />
+                        </div>
+                        <div class="form-group">
+                            <label>Last name</label>
+                            <input type="text" placeholder="Smith" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="email" placeholder="john@company.com" />
+                    </div>
+                    <div class="form-group">
+                        <label>Company</label>
+                        <input type="text" placeholder="Your company name" />
+                    </div>
+                    <div class="form-group">
+                        <label>Service of interest</label>
+                        <select>
+                            <option value="" disabled selected>Select a service…</option>
+                            <option>Audit</option>
+                            <option>Corporate Tax Services</option>
+                            <option>Business Advisory &amp; Consulting</option>
+                            <option>Compliance &amp; AML</option>
+                            <option>Corporate Finance</option>
+                            <option>IFRS Advisory</option>
+                            <option>VAT Consulting</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Tell us briefly about your situation…"></textarea>
+                    </div>
+                    <button class="form-submit" id="formSubmit">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-mark" style="width:32px;height:32px;"><span style="font-size:15px;">K</span>
+                        </div>
+                        <span class="footer-logo-name">KISA Chartered Accountants</span>
+                    </div>
+                    <p class="footer-copy">© 2025 KISA. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://kisa.ae/privacy-policy" target="_blank">Privacy Policy</a>
+                    <a href="https://kisa.ae/terms-of-service" target="_blank">Terms of Service</a>
+                    <a href="https://kisa.ae/cookie-policy" target="_blank">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 20);
+        });
+
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('open');
+            hamburger.classList.toggle('active');
+        });
+
+        mobileMenu.querySelectorAll('a').forEach(a => {
+            a.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        document.getElementById('formSubmit').addEventListener('click', function () {
+            const btn = this;
+            const orig = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> Message sent!';
+            btn.classList.add('sent');
+            setTimeout(() => {
+                btn.innerHTML = orig;
+                btn.classList.remove('sent');
+            }, 3000);
+        });
+    </script>
+</body>
+
+</html>
