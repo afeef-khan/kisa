@@ -91,7 +91,7 @@ img {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: rgba(14, 26, 43, 0.97);
+    background: var(--dark);
     backdrop-filter: blur(14px);
     border-bottom: 1px solid var(--accent-border);
     transition: var(--ease);
